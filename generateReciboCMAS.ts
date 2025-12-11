@@ -1,3 +1,5 @@
+//version inicio
+
 import * as Print from "expo-print";
 
 interface Concepto {
@@ -494,4 +496,5 @@ export const generateReciboCMAS = async (props: ReciboProps): Promise<string> =>
     console.error("Error printing:", error);
     throw error;
   }
+
 };
